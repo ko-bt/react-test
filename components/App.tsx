@@ -5,7 +5,7 @@ import formStore from "store/formStore"
 import useAppStore from "store/appStore"
 
 export const App =  () => {
-  const { init ,createWorkload,workloads} = useAppStore()
+  const { init ,workloads} = useAppStore()
   const { submit } = formStore()
 
 

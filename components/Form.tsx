@@ -3,7 +3,7 @@ interface FormProps {
   onSubmit: (params: { complexity: number }) => Promise<unknown>
 }
 
-export const Form = ({onSubmit}:FormProps) => {
+export const Form = ({submit}:FormProps) => {
   const { loading, setComplexity, complexity } = formStore()
 
   return (

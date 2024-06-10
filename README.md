@@ -23,7 +23,7 @@ What’s included:
 - A `mock-service.ts` class which behaves like a backend service. It offers Typescript interfaces of the data the service returns.
 - Some functional UI components .
 - A functional `Form` component.
-- An incomplete `AppController` class which is built with Mobx.
+- An incomplete `AppController` class which is built with Zustand.
 
 ## Problems to solve
 We would like for you to demonstrate a range of web development skills by solving a few different problems.
